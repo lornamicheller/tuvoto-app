@@ -1,0 +1,80 @@
+.grey-bg {
+  --background: #333333;
+}
+
+.logo {
+  position: absolute;
+  top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  width: 150px;
+  height: 90px;
+  object-fit: contain;
+}
+
+.yellow-bg {
+  background: #FFDF02;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.white-bg {
+  background: #ffffff;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.user-img {
+  width: 25px;
+  height: 25px;
+  object-fit: contain;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 7px;
+}
+
+.input {
+  --padding-start: 5px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.icon {
+  font-size: 25px;
+  color: #333333;
+  margin-left: 8px;
+  margin-top: 7px;
+}
+
+.log-btn {
+  --background: rgb(221, 221, 221);
+  --background-activated: rgb(199, 198, 198);
+  color: #333333;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  --border-radius: 10px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.register-btn {
+  --background: #FFDF02;
+  --background-activated: rgb(219, 190, 0);
+  color: #333333;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  --border-radius: 10px;
+  height: 50px; 
+}
+
+.forgot-btn {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  font-size: 13px;
+  text-align: center;
+}
+
+.secondary {
+  background: red;
+}

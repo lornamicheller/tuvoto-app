@@ -1,0 +1,43 @@
+.grey-bg {
+  --background: #333333;
+}
+
+.logo {
+  position: absolute;
+  top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  width: 150px;
+  height: 90px;
+  object-fit: contain;
+}
+
+
+.circle-img {
+  width: 300px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.service-info {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  font-size: 20px;
+}
+
+.start-btn {
+  --background: #FFDF02;
+  --background-activated: rgb(219, 190, 0);
+  color: #333333;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+ion-slides {
+  padding-bottom: 20px;
+  --bullet-background: white;
+  --bullet-background-active: #FFDF02;
+}

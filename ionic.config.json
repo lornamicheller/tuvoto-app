@@ -1,0 +1,7 @@
+{
+  "name": "tu-voto",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

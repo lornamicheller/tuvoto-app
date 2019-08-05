@@ -1,0 +1,50 @@
+<div class="sticky-logo">
+  <ion-img src="assets/logo small.png" class="logo"></ion-img>
+  <h1 class="news-title">TU VOTO</h1>
+</div>
+
+<ion-content class="grey-bg">
+
+  <ion-card class="wrapper">
+
+    <ion-item ion-button detail="false" routerLink="/candidate" style="--background: transparent;" lines="full">
+      <ion-icon class="arrow-right" slot="end" ios="ios-arrow-dropright-circle" md="md-arrow-dropright-circle">
+      </ion-icon>
+      <ion-label class="vote-title">
+        Gobernador Interino
+      </ion-label>
+      <ion-img style="width: 30px; height: 30px;" src="assets/fuego.png"></ion-img>
+    </ion-item>
+
+  </ion-card>
+
+
+
+</ion-content>
+
+<ion-tab-bar slot="bottom"
+  style="padding-top: 10px; padding-bottom: 20px; --background: #333333; border-top: 1px solid rgba(128, 128, 128, 0.452)">
+  <ion-tab-button (click)="openPage()">
+    <img src="assets/Noticias.png" width="30px" height="30px">
+    <ion-label style="color: white; font-family: 'Poppins', sans-serif;">Noticias</ion-label>
+  </ion-tab-button>
+
+  <ion-tab-button (click)="openPage2()">
+    <img src="assets/tuvotoyellow.png" width="30px" height="30px">
+    <ion-label style="color: #FFDF02; font-family: 'Poppins', sans-serif;">Tu Voto</ion-label>
+  </ion-tab-button>
+
+  <ion-tab-button tab="profile" (click)="openProfile()">
+    <img src="assets/Estadisticas.png" width="30px" height="30px">
+    <ion-label style="color: white; font-family: 'Poppins', sans-serif;">Estadísticas</ion-label>
+  </ion-tab-button>
+
+
+  <ion-tab-button (click)="openOthers()">
+    <img src="assets/perfil.png" width="30px" height="30px">
+    <ion-label style="color: white; font-family: 'Poppins', sans-serif;">Perfil</ion-label>
+  </ion-tab-button>
+
+
+
+</ion-tab-bar>

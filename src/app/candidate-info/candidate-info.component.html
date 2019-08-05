@@ -1,0 +1,48 @@
+<div class="sticky-logo">
+
+  <ion-img src="assets/logo small.png" class="logo"></ion-img>
+  <ion-icon class="icon-close" (click)="closeModal()" ion-button ios="ios-close-circle" md="md-close-circle"></ion-icon>
+
+</div>
+
+<ion-content class="grey-bg">
+
+  <ion-card class="picture-news">
+    <!-- <h1 class="news">Alexandra Lúgaro</h1>
+    <img class="image-new" src="assets/lugaro.jpg"> -->
+
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <h1 class="news">Alexandra Lúgaro</h1>
+          <h1 class="news2">Candidata a la gobernación</h1>
+
+        </ion-col>
+        <ion-col>
+          <img class="image-new" src="assets/lugaro.jpg">
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+
+  </ion-card>
+
+  <ion-card style="margin-top: 0; margin-bottom: 0;">
+
+    <p class="news-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, tempora nisi natus
+      maxime
+      consequatur totam
+      praesentium minus modi voluptatum reiciendis repellendus vero voluptate, mollitia nobis impedit odio dicta nam
+      doloribus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi obcaecati quibusdam libero quia
+      temporibus omnis in accusantium voluptas ab nobis itaque quod nisi iure fugit, neque sequi vitae! Nulla,
+      eveniet!
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt reprehenderit rerum atque tempore dolor ut
+      quod? Minus numquam unde quas itaque laudantium reprehenderit. Voluptate necessitatibus eum incidunt fugit
+      possimus iusto. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque atque incidunt nesciunt nisi
+      expedita quas sunt, autem necessitatibus eaque, velit quaerat animi aspernatur quibusdam cum laudantium placeat
+      ipsam! Ut, ea!
+    </p>
+  </ion-card>
+
+
+</ion-content>
+<ion-button (click)="presentPopover()" class="vote-btn" expand="full">VOTA</ion-button>

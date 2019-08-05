@@ -1,0 +1,140 @@
+<div class="sticky-logo">
+  <ion-img src="assets/logo small.png" class="logo"></ion-img>
+  <h1 class="news-title">TU VOTO</h1>
+</div>
+
+<ion-content class="grey-bg">
+
+  <ion-card class="wrapper">
+
+    <ion-grid>
+      <ion-row>
+        <ion-col style="padding: 0;" size="6">
+          <ion-card ion-button (click)="openWelcome()" class="candidate-box">
+            <ion-img class="candidate-pic" src="assets/lugaro.jpg"></ion-img>
+          </ion-card>
+          <p class="candidate-name">Alexandra Lúgaro</p>
+          <!-- <ion-img ion-button class="vote-icon" src="assets/voto gris.png"></ion-img>  -->
+          <!-- BOTÓN SE ENCIENDE CUANDO ELIGES CANDIDATO-->
+          <ion-img ion-button class="vote-icon" src="assets/voto.png"></ion-img>
+        </ion-col>
+        <ion-col style="padding: 0;" size="6">
+          <ion-card ion-button (click)="openWelcome2()" class="candidate-box">
+            <ion-img class="candidate-pic" src="assets/bernier.jpg"></ion-img>
+          </ion-card>
+          <p class="candidate-name">David Bernier</p>
+          <!-- <ion-img ion-button class="vote-icon" src="assets/voto gris.png"></ion-img>  -->
+          <!-- BOTÓN SE ENCIENDE CUANDO ELIGES CANDIDATO-->
+          <ion-img ion-button class="vote-icon" src="assets/voto.png"></ion-img>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+
+    <ion-grid>
+      <ion-row>
+        <ion-col style="padding: 0;" size="6">
+          <ion-card ion-button (click)="openWelcome()" class="candidate-box">
+            <ion-img class="candidate-pic" src="assets/cidre.jpg"></ion-img>
+          </ion-card>
+          <p class="candidate-name">Manuel Cidre</p>
+          <!-- <ion-img ion-button class="vote-icon" src="assets/voto gris.png"></ion-img>  -->
+          <!-- BOTÓN SE ENCIENDE CUANDO ELIGES CANDIDATO-->
+          <ion-img ion-button class="vote-icon" src="assets/voto.png"></ion-img>
+        </ion-col>
+        <ion-col style="padding: 0;" size="6">
+          <ion-card ion-button (click)="openWelcome()" class="candidate-box">
+            <ion-img class="candidate-pic" src="assets/maria.jpg"></ion-img>
+          </ion-card>
+          <p class="candidate-name">María de Lourdes</p>
+          <!-- <ion-img ion-button class="vote-icon" src="assets/voto gris.png"></ion-img>  -->
+          <!-- BOTÓN SE ENCIENDE CUANDO ELIGES CANDIDATO-->
+
+          <ion-img ion-button class="vote-icon" src="assets/voto.png"></ion-img>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+
+    <ion-grid>
+      <ion-row>
+        <ion-col style="padding: 0;" size="6">
+          <ion-card ion-button (click)="openWelcome()" class="candidate-box">
+            <ion-img class="candidate-pic" src="assets/manuel.jpg"></ion-img>
+          </ion-card>
+          <p class="candidate-name">Manuel Natal</p>
+          <!-- <ion-img ion-button class="vote-icon" src="assets/voto gris.png"></ion-img>  -->
+          <!-- BOTÓN SE ENCIENDE CUANDO ELIGES CANDIDATO-->
+
+          <ion-img ion-button class="vote-icon" src="assets/voto.png"></ion-img>
+        </ion-col>
+        <ion-col style="padding: 0;" size="6">
+          <ion-card ion-button (click)="openWelcome()" class="candidate-box">
+            <ion-img class="candidate-pic" src="assets/thomas.jpg"></ion-img>
+          </ion-card>
+          <p class="candidate-name">Thomas Rivera Schatz</p>
+          <!-- <ion-img ion-button class="vote-icon" src="assets/voto gris.png"></ion-img>  -->
+          <!-- BOTÓN SE ENCIENDE CUANDO ELIGES CANDIDATO-->
+
+          <ion-img ion-button class="vote-icon" src="assets/voto.png"></ion-img>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+
+    <ion-grid>
+      <ion-row>
+        <ion-col style="padding: 0;" size="6">
+          <ion-card ion-button (click)="openWelcome()" class="candidate-box">
+            <ion-img class="candidate-pic" src="assets/yulin.jpg"></ion-img>
+          </ion-card>
+          <p class="candidate-name">Carmen Yulín</p>
+          <!-- <ion-img ion-button class="vote-icon" src="assets/voto gris.png"></ion-img>  -->
+          <!-- BOTÓN SE ENCIENDE CUANDO ELIGES CANDIDATO-->
+
+          <ion-img ion-button class="vote-icon" src="assets/voto.png"></ion-img>
+        </ion-col>
+        <ion-col style="padding: 0;" size="6">
+          <ion-card ion-button (click)="openWelcome()" class="candidate-box">
+            <ion-img class="candidate-pic" src="assets/pedro.jpg"></ion-img>
+          </ion-card>
+          <p class="candidate-name">Pedro Pierluisi</p>
+          <!-- <ion-img ion-button class="vote-icon" src="assets/voto gris.png"></ion-img>  -->
+          <!-- BOTÓN SE ENCIENDE CUANDO ELIGES CANDIDATO-->
+
+          <ion-img ion-button class="vote-icon" src="assets/voto.png"></ion-img>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+
+  </ion-card>
+
+
+
+</ion-content>
+
+<ion-button (click)="presentPopover()" class="vote-btn" expand="full">VOTA</ion-button>
+
+<ion-tab-bar slot="bottom"
+  style="padding-top: 10px; padding-bottom: 20px; --background: #333333; border-top: 1px solid rgba(128, 128, 128, 0.452)">
+  <ion-tab-button (click)="openPage()">
+    <img src="assets/Noticias.png" width="30px" height="30px">
+    <ion-label style="color: white; font-family: 'Poppins', sans-serif;">Noticias</ion-label>
+  </ion-tab-button>
+
+  <ion-tab-button (click)="openPage2()">
+    <img src="assets/tuvotoyellow.png" width="30px" height="30px">
+    <ion-label style="color: #FFDF02; font-family: 'Poppins', sans-serif;">Tu Voto</ion-label>
+  </ion-tab-button>
+
+  <ion-tab-button tab="profile" (click)="openProfile()">
+    <img src="assets/Estadisticas.png" width="30px" height="30px">
+    <ion-label style="color: white; font-family: 'Poppins', sans-serif;">Estadísticas</ion-label>
+  </ion-tab-button>
+
+
+  <ion-tab-button (click)="openOthers()">
+    <img src="assets/perfil.png" width="30px" height="30px">
+    <ion-label style="color: white; font-family: 'Poppins', sans-serif;">Perfil</ion-label>
+  </ion-tab-button>
+
+
+
+</ion-tab-bar>
