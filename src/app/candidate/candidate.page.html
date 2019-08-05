@@ -1,4 +1,7 @@
 <div class="sticky-logo">
+    <ion-buttons class="arrow-position">
+        <ion-back-button class="arrow-back" defaultHref="/vote" text=""></ion-back-button>
+      </ion-buttons>
   <ion-img src="assets/logo small.png" class="logo"></ion-img>
   <h1 class="news-title">TU VOTO</h1>
 </div>
@@ -124,7 +127,7 @@
     <ion-label style="color: #FFDF02; font-family: 'Poppins', sans-serif;">Tu Voto</ion-label>
   </ion-tab-button>
 
-  <ion-tab-button tab="profile" (click)="openProfile()">
+  <ion-tab-button tab="profile" (click)="openStatistics()">
     <img src="assets/Estadisticas.png" width="30px" height="30px">
     <ion-label style="color: white; font-family: 'Poppins', sans-serif;">Estadísticas</ion-label>
   </ion-tab-button>

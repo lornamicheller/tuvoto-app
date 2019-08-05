@@ -77,4 +77,14 @@ export class CandidatePage implements OnInit {
     return await popover.present();
   }
 
+  openStatistics() {
+    let options: NativeTransitionOptions = {
+      duration: 100, 
+      iosdelay: 100
+    }
+    console.log(options);
+    this.nativePageTransitions.fade(options);
+    this.navigate.navigateRoot('/statistics');
+  }
+
 }

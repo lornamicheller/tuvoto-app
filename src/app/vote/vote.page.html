@@ -1,5 +1,6 @@
 <div class="sticky-logo">
   <ion-img src="assets/logo small.png" class="logo"></ion-img>
+  
   <h1 class="news-title">TU VOTO</h1>
 </div>
 
@@ -7,11 +8,11 @@
 
   <ion-card class="wrapper">
 
-    <ion-item ion-button detail="false" routerLink="/candidate" style="--background: transparent;" lines="full">
+    <ion-item ion-button detail="false" routerLink="/candidate" style="--background: transparent;  --background-activated: transparent;" lines="full">
       <ion-icon class="arrow-right" slot="end" ios="ios-arrow-dropright-circle" md="md-arrow-dropright-circle">
       </ion-icon>
       <ion-label class="vote-title">
-        Gobernador Interino
+        Candidatos a la gobernación
       </ion-label>
       <ion-img style="width: 30px; height: 30px;" src="assets/fuego.png"></ion-img>
     </ion-item>
@@ -34,7 +35,7 @@
     <ion-label style="color: #FFDF02; font-family: 'Poppins', sans-serif;">Tu Voto</ion-label>
   </ion-tab-button>
 
-  <ion-tab-button tab="profile" (click)="openProfile()">
+  <ion-tab-button tab="profile" (click)="openStatistics()">
     <img src="assets/Estadisticas.png" width="30px" height="30px">
     <ion-label style="color: white; font-family: 'Poppins', sans-serif;">Estadísticas</ion-label>
   </ion-tab-button>

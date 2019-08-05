@@ -1,9 +1,112 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>statistics</ion-title>
-  </ion-toolbar>
-</ion-header>
+<div class="sticky-logo">
+  <!-- <ion-buttons class="arrow-position">
+    <ion-back-button class="arrow-back" defaultHref="/vote" text=""></ion-back-button>
+  </ion-buttons> -->
+  <ion-img src="assets/logo small.png" class="logo"></ion-img>
+  <h1 class="news-title">ENCUESTAS</h1>
+</div>
 
-<ion-content>
+<ion-content class="grey-bg">
+
+  <ion-card class="wrapper">
+
+    <ion-card class="card-box">
+      <ion-grid>
+        <ion-row>
+          <ion-col size="2">
+            <img class="avatar" src="assets/lugaro.jpg">
+          </ion-col>
+          <ion-col size="8">
+            <ion-card class="color-bar"></ion-card>
+          </ion-col>
+          <ion-col class="result" size="2">
+            90%
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+      <h1 class="title">Candidatura a la Gobernación</h1>
+    </ion-card>
+
+    <ion-card class="card-box">
+      <ion-grid>
+        <ion-row>
+          <ion-col size="2">
+            <img class="avatar" src="assets/bernier.jpg">
+          </ion-col>
+          <ion-col size="8">
+            <ion-card class="color-bar2"></ion-card>
+          </ion-col>
+          <ion-col class="result" size="2">
+            50%
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+      <h1 class="title">Candidatura a la Gobernación</h1>
+    </ion-card>
+
+    <ion-card class="card-box">
+      <ion-grid>
+        <ion-row>
+          <ion-col size="2">
+            <img class="avatar" src="assets/cidre.jpg">
+          </ion-col>
+          <ion-col size="8">
+            <ion-card class="color-bar2"></ion-card>
+          </ion-col>
+          <ion-col class="result" size="2">
+            50%
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+      <h1 class="title">Candidatura a la Gobernación</h1>
+    </ion-card>
+
+    <ion-card class="card-box">
+      <ion-grid>
+        <ion-row>
+          <ion-col size="2">
+            <img class="avatar" src="assets/manuel.jpg">
+          </ion-col>
+          <ion-col size="8">
+            <ion-card class="color-bar2"></ion-card>
+          </ion-col>
+          <ion-col class="result" size="2">
+            50%
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+      <h1 class="title">Candidatura a la Gobernación</h1>
+    </ion-card>
+
+  </ion-card>
+
+
 
 </ion-content>
+
+<ion-tab-bar slot="bottom"
+  style="padding-top: 10px; padding-bottom: 20px; --background: #333333; border-top: 1px solid rgba(128, 128, 128, 0.452)">
+  <ion-tab-button (click)="openPage()">
+    <img src="assets/Noticias.png" width="30px" height="30px">
+    <ion-label style="color: white; font-family: 'Poppins', sans-serif;">Noticias</ion-label>
+  </ion-tab-button>
+
+  <ion-tab-button (click)="openPage2()">
+    <img src="assets/tuvoto.png" width="30px" height="30px">
+    <ion-label style="color: white; font-family: 'Poppins', sans-serif;">Tu Voto</ion-label>
+  </ion-tab-button>
+
+  <ion-tab-button tab="profile" (click)="openStatistics()">
+    <img src="assets/estadistica yellow.png" width="30px" height="30px">
+    <ion-label style="color: #FFDF02; font-family: 'Poppins', sans-serif;">Estadísticas</ion-label>
+  </ion-tab-button>
+
+
+  <ion-tab-button (click)="openOthers()">
+    <img src="assets/perfil.png" width="30px" height="30px">
+    <ion-label style="color: white; font-family: 'Poppins', sans-serif;">Perfil</ion-label>
+  </ion-tab-button>
+
+
+
+</ion-tab-bar>

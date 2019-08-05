@@ -1,0 +1,88 @@
+.grey-bg {
+  --background: #333333;
+}
+
+.logo {
+  position: absolute;
+  top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  width: 150px;
+  height: 90px;
+  object-fit: contain;
+}
+
+.sticky-logo {
+  width: 100%;
+  height: 160px;
+  background: #333333;
+}
+
+.wrapper {
+  margin: 0;
+  margin-bottom: 20px;
+  border-radius: 0;
+}
+
+.news-title {
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  margin-left: 30px;
+  margin-top: 120px;
+}
+
+.card-box {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+
+.arrow-back {
+  position: absolute;
+  color: white;
+  top: 60px;
+  left: 15px;
+  font-size: 15px;
+}
+
+.title {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover
+}
+
+.color-bar {
+  height: 30px;
+  background: #ffdf02;
+  border-radius: 0;
+  margin: 0;
+  margin-top: 5px;
+  width: 90%;
+}
+
+.color-bar2 {
+  height: 30px;
+  background: #ffdf02;
+  border-radius: 0;
+  margin: 0;
+  margin-top: 5px;
+  width: 50%;
+}
+
+.result {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  margin-top: 10px;
+}
