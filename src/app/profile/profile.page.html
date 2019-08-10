@@ -1,0 +1,52 @@
+<ion-content class="grey-bg">
+
+  <div class="sticky-logo">
+    <ion-img src="assets/logo small.png" class="logo"></ion-img>
+  </div>
+
+  <ion-card class="wrapper">
+    <ion-card>
+      <img src="assets/foto perfil.png" ion-button (click)="presentPopover()" class="profile-avatar">
+      <h1 class="avatar-title">Seleccionar Avatar</h1>
+
+      <ion-input class="input" type="text" placeholder="Jane Doe"></ion-input>
+      <ion-input class="input" type="text" placeholder="email@test.com"></ion-input>
+      <ion-input class="input" type="password" placeholder="*******"></ion-input>
+      <ion-input class="input" type="tel" placeholder="7873455353"></ion-input>
+
+      <ion-button class="register-btn" (click)="presentPopover()" expand="block">GUARDAR</ion-button>
+    </ion-card>
+
+
+  </ion-card>
+
+
+
+</ion-content>
+
+<ion-tab-bar slot="bottom"
+  style="padding-top: 10px; padding-bottom: 20px; --background: #333333; border-top: 1px solid rgba(128, 128, 128, 0.452)">
+  <ion-tab-button (click)="openPage()">
+    <img src="assets/Noticias.png" width="30px" height="30px">
+    <ion-label style="color: white; font-family: 'Poppins', sans-serif;">Noticias</ion-label>
+  </ion-tab-button>
+
+  <ion-tab-button (click)="openPage2()">
+    <img src="assets/tuvoto.png" width="30px" height="30px">
+    <ion-label style="color: white; font-family: 'Poppins', sans-serif;">Tu Voto</ion-label>
+  </ion-tab-button>
+
+  <ion-tab-button tab="profile" (click)="openStatistics()">
+    <img src="assets/Estadisticas.png" width="30px" height="30px">
+    <ion-label style="color: white; font-family: 'Poppins', sans-serif;">Estadísticas</ion-label>
+  </ion-tab-button>
+
+
+  <ion-tab-button (click)="openOthers()">
+    <img src="assets/perfil yellow.png" width="30px" height="30px">
+    <ion-label style="color: #FFDF02; font-family: 'Poppins', sans-serif;">Perfil</ion-label>
+  </ion-tab-button>
+
+
+
+</ion-tab-bar>

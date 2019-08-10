@@ -16,18 +16,21 @@ import { CandidateInfoComponent } from './candidate-info/candidate-info.componen
 import { SecondCandidateComponent } from './second-candidate/second-candidate.component';
 import { Popover2Component } from './popover2/popover2.component';
 import { Popover3Component } from './popover3/popover3.component';
+import { ChooseavatarComponent } from './chooseavatar/chooseavatar.component';
+import { FormsModule } from '@angular/forms';
+
 
 
 @NgModule({
-  declarations: [AppComponent, WelcomeComponent, RegisterComponent, PopoverComponent, CandidateInfoComponent, SecondCandidateComponent, Popover2Component, Popover3Component],
+  declarations: [AppComponent, WelcomeComponent, RegisterComponent, PopoverComponent, CandidateInfoComponent, SecondCandidateComponent, Popover2Component, Popover3Component, ChooseavatarComponent],
   entryComponents: [],
-  imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule],
+  imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule, FormsModule],
   providers: [
     StatusBar,
     SplashScreen,
     NativePageTransitions,
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }
   ],
-  bootstrap: [AppComponent, WelcomeComponent, RegisterComponent, PopoverComponent, CandidateInfoComponent, SecondCandidateComponent, Popover2Component, Popover3Component]
+  bootstrap: [AppComponent, WelcomeComponent, RegisterComponent, PopoverComponent, CandidateInfoComponent, SecondCandidateComponent, Popover2Component, Popover3Component, ChooseavatarComponent]
 })
 export class AppModule {}

@@ -9,11 +9,11 @@
       <ion-row>
         <ion-col class="yellow-bg" size="2">
           <ion-card style="margin: 0">
-            <ion-img class="user-img" src="assets/correo electronico.png"></ion-img>
+            <ion-img class="user-img" src="assets/correoelectronico.png"></ion-img>
           </ion-card>
         </ion-col>
         <ion-col class="white-bg">
-          <ion-input type="text" class="input" placeholder="Usuario"></ion-input>
+          <ion-input [(ngModel)]="user" type="text" class="input" placeholder="Usuario"></ion-input>
         </ion-col>
       </ion-row>
     </ion-grid>
@@ -26,7 +26,7 @@
           </ion-card>
         </ion-col>
         <ion-col class="white-bg">
-          <ion-input type="text" class="input" placeholder="Correo Electrónico"></ion-input>
+          <ion-input [(ngModel)]="email" type="text" class="input" placeholder="Correo Electrónico"></ion-input>
         </ion-col>
       </ion-row>
     </ion-grid>
@@ -39,7 +39,7 @@
           </ion-card>
         </ion-col>
         <ion-col class="white-bg">
-          <ion-input type="password" class="input" placeholder="Contraseña"></ion-input>
+          <ion-input [(ngModel)]="password" type="password" class="input" placeholder="Contraseña"></ion-input>
         </ion-col>
       </ion-row>
     </ion-grid>
@@ -53,7 +53,7 @@
           </ion-card>
         </ion-col>
         <ion-col class="white-bg">
-          <ion-input type="password" class="input" placeholder="Confirmar contraseña"></ion-input>
+          <ion-input [(ngModel)]="confirmPass" type="password" class="input" placeholder="Confirmar contraseña"></ion-input>
         </ion-col>
       </ion-row>
     </ion-grid>
@@ -67,7 +67,7 @@
           </ion-card>
         </ion-col>
         <ion-col class="white-bg">
-          <ion-input type="password" class="input" placeholder="Teléfono"></ion-input>
+          <ion-input [(ngModel)]="tel" type="number" class="input" placeholder="Teléfono"></ion-input>
         </ion-col>
       </ion-row>
     </ion-grid>
@@ -81,7 +81,7 @@
           </ion-card>
         </ion-col>
         <ion-col class="white-bg">
-          <ion-input type="password" class="input" placeholder="Pueblo"></ion-input>
+          <ion-input [(ngModel)]="town" type="text" class="input" placeholder="Pueblo"></ion-input>
         </ion-col>
       </ion-row>
     </ion-grid>
@@ -95,7 +95,7 @@
           </ion-card>
         </ion-col>
         <ion-col class="white-bg">
-          <ion-input type="password" class="input" placeholder="Sexo"></ion-input>
+          <ion-input [(ngModel)]="sex" type="text" class="input" placeholder="Sexo"></ion-input>
         </ion-col>
       </ion-row>
     </ion-grid>
@@ -109,7 +109,7 @@
           </ion-card>
         </ion-col>
         <ion-col class="white-bg">
-          <ion-input type="password" class="input" placeholder="Edad"></ion-input>
+          <ion-input [(ngModel)]="age" type="number" class="input" placeholder="Edad"></ion-input>
         </ion-col>
       </ion-row>
     </ion-grid>

@@ -43,4 +43,14 @@ export class NewsPage implements OnInit {
     this.nativePageTransitions.fade(options);
     this.navigate.navigateRoot('/statistics');
   }
+
+  openProfile() {
+    let options: NativeTransitionOptions = {
+      duration: 100, 
+      iosdelay: 100
+    }
+    console.log(options);
+    this.nativePageTransitions.fade(options);
+    this.navigate.navigateRoot('/profile');
+  }
 }

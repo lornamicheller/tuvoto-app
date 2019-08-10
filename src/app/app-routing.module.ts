@@ -12,6 +12,8 @@ const routes: Routes = [
   { path: 'candidate', loadChildren: './candidate/candidate.module#CandidatePageModule' },
   { path: 'candidate-info', loadChildren: './candidate-info/candidate-info.module#CandidateInfoPageModule' },
   { path: 'statistics', loadChildren: './statistics/statistics.module#StatisticsPageModule' },
+  { path: 'profile', loadChildren: './profile/profile.module#ProfilePageModule' },
+  { path: 'comment-section', loadChildren: './comment-section/comment-section.module#CommentSectionPageModule' },
 ];
 
 @NgModule({

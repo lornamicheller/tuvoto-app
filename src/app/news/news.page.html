@@ -1,7 +1,7 @@
 <div class="sticky-logo">
-  <ion-img src="assets/logo small.png" class="logo"></ion-img>
-  <h1 class="news-title">NOTICIAS</h1>
-</div>
+    <ion-img src="assets/logo small.png" class="logo"></ion-img>
+    <h1 class="news-title">NOTICIAS</h1>
+  </div>
 
 <ion-content class="grey-bg">
 
@@ -30,8 +30,8 @@
         <ion-col class="content-icon">
           22.4k
         </ion-col>
-        <ion-col size="1" style="padding: 0;">
-          <img class="icons" ion-button src="assets/coment.png">
+        <ion-col size="1" ion-button routerLink="/comment-section" style="padding: 0;">
+          <img class="icons" src="assets/coment.png">
           <!-- <img class="icons" ion-button src="assets/coment copy.png">  -->
           <!-- ICON  SE USARÁ CUANDO LA PERSONA PRESIONE EL BOTÓN, CAMBIARÁ DE COLOR -->
         </ion-col>
@@ -74,8 +74,8 @@
         <ion-col class="content-icon">
           22.4k
         </ion-col>
-        <ion-col size="1" style="padding: 0;">
-          <img class="icons" ion-button src="assets/coment.png">
+        <ion-col size="1" style="padding: 0;" ion-button routerLink="/comment-section">
+          <img class="icons" src="assets/coment.png">
           <!-- <img class="icons" ion-button src="assets/coment copy.png">  -->
           <!-- ICON  SE USARÁ CUANDO LA PERSONA PRESIONE EL BOTÓN, CAMBIARÁ DE COLOR -->
         </ion-col>
@@ -117,8 +117,8 @@
         <ion-col class="content-icon">
           22.4k
         </ion-col>
-        <ion-col size="1" style="padding: 0;">
-          <img class="icons" ion-button src="assets/coment.png">
+        <ion-col size="1" style="padding: 0;" ion-button routerLink="/comment-section">
+          <img class="icons" src="assets/coment.png">
           <!-- <img class="icons" ion-button src="assets/coment copy.png">  -->
           <!-- ICON  SE USARÁ CUANDO LA PERSONA PRESIONE EL BOTÓN, CAMBIARÁ DE COLOR -->
         </ion-col>
@@ -161,7 +161,7 @@
   </ion-tab-button>
 
 
-  <ion-tab-button (click)="openOthers()">
+  <ion-tab-button (click)="openProfile()">
     <img src="assets/perfil.png" width="30px" height="30px">
     <ion-label style="color: white; font-family: 'Poppins', sans-serif;">Perfil</ion-label>
   </ion-tab-button>
